@@ -1,0 +1,61 @@
+   TESTING PUSH
+*--------------------*
+Checking using the 'isEmpty' method: The stack is empty. 
+Length of myStack after pushing four strings: 4
+Contents of myStack: LinkedListStack contents: test     a       is      This
+
+
+   TESTING PEEK
+*--------------------*
+Top element of myStack using peek: test
+
+
+   TESTING POP
+*--------------------*
+Contents of myStack: LinkedListStack contents: test     a       is      This
+Popping the top element of myStack. 
+Contents of myStack after one pop: LinkedListStack contents: a  is      This
+Length of myStack: 3
+   *----*
+Popping all remaining elements of myStack. 
+Contents of myStack: LinkedListStack contents: Stack is empty, no elements to display.
+
+Length of myStack: 0
+Checking if myStack is empty now: The stack is empty. 
+Trying to pop an element from an empty stack. 
+Error: 
+
+
+   TESTING ROTATE
+*--------------------*
+Contents of myStack before rotation: LinkedListStack contents: four     three   two      one
+   *----*
+Rotating stack LEFT. 
+Contents of myStack after rotating to LEFT: LinkedListStack contents: three     two      one     four
+   *----*
+Rotating stack RIGHT. 
+Contents of myStack after rotating to RIGHT: LinkedListStack contents: four     three    two     one
+
+
+   TESTING CLEAR
+*--------------------*
+Clearing contents of myStack. 
+Contents of myStack: LinkedListStack contents: 
+Length of myStack: 4
+
+
+   OTHER DATATYPE
+*--------------------*
+Contents of intStack: LinkedListStack contents: 20      10
+   *----*
+Popping one element from intStack. 
+Contents of intStack: LinkedListStack contents: 10
+   *----*
+Pushing two more elements into intStack. 
+Contents of intStack: LinkedListStack contents: 40      30      10
+   *----*
+Rotating intStack LEFT. 
+Contents of intStack after rotating LEFT: LinkedListStack contents: 30  10      40
+   *----*
+Rotating intStack RIGHT. 
+Contents of intStack after rotating RIGHT: LinkedListStack contents: 40 30      10
